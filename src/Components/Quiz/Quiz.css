@@ -1,0 +1,129 @@
+.container {
+  width: 640px;
+  margin: auto;
+  margin-top: 25px;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+
+.container h2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container button {
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  background: #DB3F3D;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 18px;
+}
+.container .correct {
+  background: #dffff2;
+  border-color: #00d397;
+}
+.container .wrong {
+  background: #ffebeb;
+  border-color: #ff4a4a;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 55vh;
+    height: 84vh;
+  }
+  .container .index {
+    margin: auto;
+    font-size: 24px;
+  }
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .container {
+    width: 45vh;
+    height: 84vh;
+  }
+}
+
+@media all and (min-width: 380px) and (max-width: 480px) {
+  .container {
+    width: 29vh;
+    height: 85vh;
+  }
+
+  .container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 190px;
+    font-size: 20px;
+  }
+  .container h2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .container {
+    width: 29vh;
+    height: 82vh;
+  }
+
+  .container ul li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+  }
+  .container h2 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .container button {
+    width: 150px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+}

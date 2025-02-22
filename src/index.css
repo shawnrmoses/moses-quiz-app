@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+body{
+  height: 100vh;
+  background: #DB3F3D;
+  font-family: "Poppins", serif;
+  overflow: hidden;
+}
+
